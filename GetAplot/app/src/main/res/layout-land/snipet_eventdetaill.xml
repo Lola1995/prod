@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/ee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:id="@+id/progressBar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@+id/e_image"
+                    android:layout_width="300dp"
+                    android:layout_height="270dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="TODO" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/swipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/ee"
+                android:layout_toRightOf="@+id/ee">
+
+                <TextView
+                    android:id="@+id/title_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="15dp"
+
+                    android:layout_marginStart="15dp"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title_v"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/dateview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/desc"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorPrimary">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/ev_cattt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dateview"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="4dp"
+                    android:padding="2dp"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/actionbuttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/swipe"
+                android:layout_toEndOf="@+id/ee"
+
+                android:layout_toRightOf="@+id/ee"
+                android:visibility="visible">
+
+
+                <ImageView
+                    android:id="@+id/going_img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp" />
+
+                <ImageView
+                    android:id="@+id/comment_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_toEndOf="@+id/going_img"
+                    android:layout_toRightOf="@+id/going_img"
+
+                    android:src="@drawable/ic_comment" />
+
+                <ImageView
+                    android:id="@+id/share_image"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/comment_image"
+                    android:src="@drawable/ic_share" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/actionbuttons"
+                android:layout_toEndOf="@+id/ee"
+                android:layout_toRightOf="@+id/ee"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/peoplegoing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:defaultFocusHighlightEnabled="true"
+                    android:focusable="auto"
+                    android:focusableInTouchMode="true"
+                    android:longClickable="true"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/place_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/peoplegoing"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+
+                    />
+
+                <Button
+                    android:id="@+id/all_sayings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/place_name"
+                    android:background="@drawable/white_grey_border_bottom"
+                    android:clickable="true"
+                    android:contextClickable="true"
+                    android:defaultFocusHighlightEnabled="true"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:focusedByDefault="true"
+                    android:linksClickable="true"
+                    android:longClickable="true"
+                    android:padding="5dp"
+                    android:text="Comments"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/posttimestamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/all_sayings"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

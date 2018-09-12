@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Plots">
+        <ListPreference
+            android:defaultValue="Current Location"
+            android:entries="@array/plots"
+            android:entryValues="@array/plots"
+            android:key="test"
+            android:summary="Plots that show in the homescreen">
+
+        </ListPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

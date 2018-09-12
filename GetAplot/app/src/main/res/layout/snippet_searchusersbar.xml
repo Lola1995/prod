@@ -1,0 +1,63 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        app:cardElevation="10dp"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="50dp">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/closewin"
+                        android:tint="@color/black"
+                        android:src="@drawable/ic_backarrow"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/searchUserField"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_toEndOf="@+id/closewin"
+                        android:layout_toRightOf="@+id/closewin"
+                        android:background="@drawable/status_border_white"
+                        android:hint="Search for People..."
+                        android:maxLines="1"
+                        android:textColor="#000"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/searchblack"
+                        android:tint="#000"
+                        android:layout_alignParentEnd="true"
+                        android:id="@+id/seachimage"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true" />
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.Toolbar>
+
+
+        </android.support.design.widget.AppBarLayout>
+    </android.support.v7.widget.CardView>
+
+
+</merge>

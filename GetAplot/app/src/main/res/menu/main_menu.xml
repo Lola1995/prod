@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/notifications"-->
+        <!--android:icon="@drawable/ic_notifications"-->
+        <!--android:title="Notifications"-->
+        <!--app:showAsAction="ifRoom" />-->
+    <item
+        android:id="@+id/places"
+        android:title="Places"
+        app:showAsAction="always" />
+
+
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/ic_add_white"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/requests"
+        android:title="Requests"
+        android:icon="@drawable/ic_requests"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/fav"
+        android:title="My favourites"
+        android:icon="@drawable/ic_star_white"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/add_user"
+        android:title="Top Profiles"
+        android:icon="@drawable/ic_people"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/setss"
+android:icon="@drawable/ic_settings"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+</menu>

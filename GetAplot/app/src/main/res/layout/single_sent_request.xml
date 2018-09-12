@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/grey_border_bottom"
+        android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|clip_vertical|clip_horizontal|start|end"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:weightSum="1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/attendee_pic"
+            android:layout_width="70dp"
+            android:transitionName="cpic"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="true"
+            android:foregroundGravity="center_horizontal"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            tools:ignore="RtlHardcoded" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+                android:id="@+id/us_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Truly"
+                android:textColor="#000"
+                android:textSize="17sp"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/us_times"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="12/11/1 200pm"
+                android:textSize="12sp"
+                tools:ignore="RelativeOverlap" />
+
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_marginLeft="0dp"
+                android:background="@color/colorAccent"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:paddingLeft="0dp"
+                android:paddingStart="0dp"
+                android:text="Cancel Request"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

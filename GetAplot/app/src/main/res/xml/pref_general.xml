@@ -1,0 +1,62 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="Plots">
+    <ListPreference
+    android:defaultValue="Current Location"
+    android:entries="@array/plotsprovinces"
+    android:entryValues="@array/plotsprovinces"
+    android:key="event"
+    android:summary="Plots that show in the homescreen">
+
+    </ListPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+    android:icon="@drawable/emoji_people"
+    android:title="Users">
+    <ListPreference
+    android:defaultValue="10"
+    android:entries="@array/topusercount"
+    android:entryValues="@array/topusercount"
+    android:key="topusercount"
+    android:summary="The number of top users shown at atime in the top users screen"
+    android:title="Top users">
+
+    </ListPreference>
+    <SwitchPreference
+    android:defaultValue="false"
+    android:key="search"
+    android:summary="Search by usernames"
+    android:title="User search" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+    android:icon="@drawable/notification"
+    android:title="@string/pref_title_notifications">
+
+    <SwitchPreference
+    android:defaultValue="true"
+    android:key="@string/notifications_new_message"
+    android:summary="Recieve New Messages,My new CommentsLikes,Friend Requests Notifications?"
+    android:title="Recieve New Notifications" />
+
+    />
+
+    <RingtonePreference
+    android:defaultValue="content://settings/system/notification_sound"
+    android:dependency="notifications_new_message"
+    android:key="@string/key_notifications_new_message_ringtone"
+    android:ringtoneType="notification"
+    android:summary="@string/summary_choose_ringtone"
+    android:title="@string/pref_title_ringtone" />
+
+    <SwitchPreference
+    android:defaultValue="true"
+    android:key="@string/key_vibrate"
+    android:summary="@string/summary_vibrate"
+    android:title="@string/title_vibrate" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

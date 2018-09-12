@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/chatmebg"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:id="@+id/hey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+                android:id="@+id/message_text_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:textColorLink="@color/link_blue"
+                android:text="Hello everybody i miss you all"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:id="@+id/message_text_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="false"
+                android:background="@drawable/image_text_mesg"
+                android:cropToPadding="false"
+                android:foregroundGravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:src="@color/threes"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/grey_100"
+                android:transitionName="cpic"
+                android:visibility="gone">
+
+            </ImageView>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hey">
+
+            <TextView
+                android:id="@+id/message_time_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="12sp"
+                tools:text="12/6/2017" />
+
+            <ImageView
+                android:id="@+id/seenview"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toEndOf="@+id/message_time_layout"
+                android:layout_toRightOf="@+id/message_time_layout"
+                android:src="@drawable/ic_check" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

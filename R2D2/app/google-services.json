@@ -1,0 +1,259 @@
+{
+  "project_info": {
+    "project_number": "363577460566",
+    "firebase_url": "https://getaplot-e140a.firebaseio.com",
+    "project_id": "getaplot-e140a",
+    "storage_bucket": "getaplot-e140a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363577460566:android:e4af446cb5d80a89",
+        "android_client_info": {
+          "package_name": "com.getaplot.asgetaplot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363577460566-11msi0s9j1r2kk43915k0kq4080fp1gh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getaplot.asgetaplot",
+            "certificate_hash": "e7607d846d5a9c237c69e35abc032fa4dafbe3ae"
+          }
+        },
+        {
+          "client_id": "363577460566-u8ds2agsoeusofqacuq7il8109vcm5d9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getaplot.asgetaplot",
+            "certificate_hash": "9c5251a60710a213e6251dda73f7f1f059ff9635"
+          }
+        },
+        {
+          "client_id": "363577460566-667a6kqvddd1mt9h8lrq7p353l53t1rk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getaplot.asgetaplot",
+            "certificate_hash": "290029ff9d91552406777aee2039b6ae2be133e4"
+          }
+        },
+        {
+          "client_id": "363577460566-c6ckadpbqh0gg5l7lld3n7dovn6gubh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getaplot.asgetaplot",
+            "certificate_hash": "7e61bdb6ace2ce3984e4f9d9ed03c0700bdd4359"
+          }
+        },
+        {
+          "client_id": "363577460566-bifdd5om0cvsb8rpiq07igiaj249phhg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getaplot.asgetaplot",
+            "certificate_hash": "03b8a528eb9001580716decfbdfd6bdbd55ff308"
+          }
+        },
+        {
+          "client_id": "363577460566-hr5hcas7i7tkekh5u10uu4j2pdg8177d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getaplot.asgetaplot",
+            "certificate_hash": "e3ab4218d1f18312a20d7c67a288b62b4965668c"
+          }
+        },
+        {
+          "client_id": "363577460566-b5aar5lj3lh8k8mj6km02fe8e9mojjt9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getaplot.asgetaplot",
+            "certificate_hash": "88b70fbceeb975b90321087df307cc3506dc09ce"
+          }
+        },
+        {
+          "client_id": "363577460566-soqr330f37p7ijphbj7i2dmvoi45kmfn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getaplot.asgetaplot",
+            "certificate_hash": "948ef46733e1178eb7f8c0edd5f901eacfa8d56c"
+          }
+        },
+        {
+          "client_id": "363577460566-b738sejmshp8e1fqjae9llrc0fh27ian.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4_o_pl-TUdZySuEhxQPeR8yBCqu4yO7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363577460566-b738sejmshp8e1fqjae9llrc0fh27ian.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363577460566:android:7ef085cd34e6944b",
+        "android_client_info": {
+          "package_name": "com.getaplot.asgetaplotadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363577460566-m8ecgiqai92vkq2ht5ejtjjvvf9lcj4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getaplot.asgetaplotadmin",
+            "certificate_hash": "03b8a528eb9001580716decfbdfd6bdbd55ff308"
+          }
+        },
+        {
+          "client_id": "363577460566-38jdc2ge6thdq9db2fpl65ov1a3fr6bj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getaplot.asgetaplotadmin",
+            "certificate_hash": "948ef46733e1178eb7f8c0edd5f901eacfa8d56c"
+          }
+        },
+        {
+          "client_id": "363577460566-qkh4qjqnhd1aqb82u1bv8dtv6a0nntd7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getaplot.asgetaplotadmin",
+            "certificate_hash": "e3ab4218d1f18312a20d7c67a288b62b4965668c"
+          }
+        },
+        {
+          "client_id": "363577460566-b738sejmshp8e1fqjae9llrc0fh27ian.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4_o_pl-TUdZySuEhxQPeR8yBCqu4yO7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363577460566-b738sejmshp8e1fqjae9llrc0fh27ian.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363577460566:android:2ef05e4140b76aa3",
+        "android_client_info": {
+          "package_name": "com.asgetaplotadmin.asgetaplotadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363577460566-t7r7nehn6gt8ijvu212q342gma7gj8or.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asgetaplotadmin.asgetaplotadmin",
+            "certificate_hash": "e7607d846d5a9c237c69e35abc032fa4dafbe3ae"
+          }
+        },
+        {
+          "client_id": "363577460566-b738sejmshp8e1fqjae9llrc0fh27ian.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4_o_pl-TUdZySuEhxQPeR8yBCqu4yO7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363577460566-b738sejmshp8e1fqjae9llrc0fh27ian.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363577460566:android:678809fa1e6c6df2",
+        "android_client_info": {
+          "package_name": "com.crycetruly.r2d2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363577460566-d8hf6ijtiamouvmpnpkhtirhpn3cbium.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crycetruly.r2d2",
+            "certificate_hash": "e7607d846d5a9c237c69e35abc032fa4dafbe3ae"
+          }
+        },
+        {
+          "client_id": "363577460566-b738sejmshp8e1fqjae9llrc0fh27ian.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4_o_pl-TUdZySuEhxQPeR8yBCqu4yO7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363577460566-b738sejmshp8e1fqjae9llrc0fh27ian.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

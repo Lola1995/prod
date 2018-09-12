@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/grey_border_bottom"
+        android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|clip_vertical|clip_horizontal|start|end"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="true"
+            android:foregroundGravity="center_horizontal"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            tools:ignore="RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/us_nam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:maxLength="20"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:visibility="visible" />
+
+
+                <TextView
+                    android:id="@+id/commenttime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:layout_alignParentEnd="true"
+                    android:textColor="@color/black"
+                    android:text="4d"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/us_comment2"
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:transitionName="cpic"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/image_text_mesg"
+                android:scaleType="centerCrop"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/us_comment3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:transitionName="cpic"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/location_text_mesg"
+                android:scaleType="fitCenter"
+                android:visibility="gone" />
+
+
+            <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+                android:id="@+id/us_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:autoLink="web"
+                android:layout_marginStart="10dp"
+                android:textSize="15sp" />
+
+
+
+            <include
+                layout="@layout/snippet_comment_likes_and_replies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

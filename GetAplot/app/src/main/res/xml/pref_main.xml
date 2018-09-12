@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="The Plots">
+        <ListPreference
+            android:defaultValue="Current Location"
+            android:entries="@array/plotsprovinces"
+            android:entryValues="@array/plotsprovinces"
+            android:key="event"
+            android:summary="Plots that show in the homescreen">
+
+        </ListPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:icon="@drawable/emoji_people"
+        android:title="Users">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="search"
+            android:summary="Search users by their usernames"
+            android:title="User search" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:icon="@drawable/ic_info_help"
+        android:title="About App">
+
+        <Preference
+            android:selectable="false"
+            android:summary="@string/summary_about" />
+
+
+        <Preference
+            android:summary="Get yourself the latest version with most update features"
+            android:title="Latest Version">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/appstoreurl" />
+        </Preference>
+
+
+        <Preference
+            android:summary="View our Privacy Policy"
+            android:title="@string/privacy_policy">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/apptosurl" />
+        </Preference>
+
+        <Preference
+            android:summary="View our Terms and Conditions"
+            android:title="Terms and Conditions">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_terms" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

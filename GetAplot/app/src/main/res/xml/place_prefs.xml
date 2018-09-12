@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:icon="@drawable/notification"
+        android:title="Notifications">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="nots"
+            android:persistent="true"
+            android:summary="Recieve Notifications from this Place when new Events and Posts are added?"
+            android:title="Event Addition Notifications">
+
+        </SwitchPreference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|clip_vertical|clip_horizontal|start|end"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/ev_cover"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:transitionName="cpic"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="true"
+        android:paddingBottom="5dp"
+        android:scaleType="centerCrop"
+        tools:ignore="RtlHardcoded" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/ev_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:ellipsize="end"
+
+                android:maxLines="1"
+                android:paddingEnd="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                tools:ignore="RelativeOverlap" />
+
+            <RelativeLayout
+                android:id="@+id/appp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true">
+
+                <ImageView
+                    android:id="@+id/ch"
+                    android:layout_width="@dimen/spacing_mlarge"
+                    android:layout_height="@dimen/spacing_mlarge"/>
+
+                <TextView
+                    android:id="@+id/count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/ch"
+                    android:layout_toRightOf="@+id/ch" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:autoLink="web"
+            android:textSize="15sp"
+            tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:id="@+id/ev_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:paddingLeft="0dp"
+                android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/ev_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:autoLink="web|email|phone|map" />
+
+
+        <View
+            android:background="@color/grey_10"
+            android:layout_height="1dp"
+            android:layout_width="match_parent" />
+
+
+    </LinearLayout>
+</LinearLayout>

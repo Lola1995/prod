@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7b1fa2</color>
+    <color name="colorPrimaryDark">#6a1b9a</color>
+
+    <color name="darkRed">#cc0000</color>
+    <color name="colordarkRed">#cc0000</color>
+         <color name="threes">#333</color>
+    <color name="mcam_color_light">#FAFAFA</color>
+    <color name="mcam_color_dark">#424242</color>
+
+    <color name="overlay_dark_20">#33000000</color>
+
+    <!--<color name="colorPrimaryDark">#691AA7</color>-->
+    <!--<color name="colorPrimary">#691A99</color>-->
+    <color name="colorAccent">#ff5521</color>
+    <color name="colorShop">#9a1e1b</color>
+    <color name="colorShop2">#071f53</color>
+    <color name="colorNavText">#ffffff</color>
+    <color name="colorSettings">#40000000</color>
+    <color name="colorClick">#abcdef</color>
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+
+    <color name="chatbubleme">#0d8dcc</color>
+<color name="link_blue">#0d8dcc</color>
+    <!--<color name="colorPrimary">#7A1EA1</color>
+    <color name="colorPrimaryDark">#691A99</color>
+    <color name="colorAccent">#68EFAD</color>
+    <color name="colorWhite">#e3e3e3</color>-->
+
+    <color name="grey">#bfbfbf</color>
+    <color name="white">#fff</color>
+    <color name="black">#000000</color>
+
+
+    <color name="color_asbestos">#7f8c8d</color>
+    <color name="grey_100">#F5F5F5</color>
+</resources>

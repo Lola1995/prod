@@ -1,0 +1,21 @@
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/eventdetail_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+    <TextView
+        android:id="@+id/evtest"
+        style="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:ellipsize="end"
+        android:focusable="true"
+        android:focusedByDefault="true"
+        android:singleLine="true"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</android.support.v7.widget.Toolbar>

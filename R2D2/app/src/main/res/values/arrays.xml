@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="eventstownselection">
+        <item>Current Location</item>
+        <item>Rest of the World</item>
+    </string-array>
+    <string-array name="onoff">
+        <item>on</item>
+        <item>off</item>
+    </string-array>
+    <string-array name="towns_in_uganda">
+        <item>Mbarara</item>
+        <item>Kampala</item>
+        <item>Entebbe</item>
+        <item>Jinja</item>
+        <item>Mukono</item>
+        <item>Ishaka</item>
+        <item>Masaka</item>
+        <item>Gulu</item>
+
+        <item>Rest Of Uganda</item>
+
+
+    </string-array>
+    <string-array name="provinces">
+        <item>Current Location</item>
+        <item>Western</item>
+        <item>Central</item>
+        <item>Eastern</item>
+        <item>Northern</item>
+        <item>Southern</item>
+        <item>Rest Of Uganda</item>
+
+
+    </string-array>
+    <string-array name="topusercount">
+        <item>10</item>
+        <item>20</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+</resources>

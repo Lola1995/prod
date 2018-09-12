@@ -1,0 +1,3 @@
+User-Agent:*
+Disallow:/device-mockups/
+Allow:/index.html

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <EditTextPreference
+            android:defaultValue="gpadmin"
+            android:key="title"
+            android:summary="The title that will be displayed as your app name"
+            android:title="The App Title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Colors">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="background_color"
+            android:summary="Is the background color dark? The background of the main screen"
+            android:title="Dark Background">
+
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="app_bar_background_color"
+            android:summary="Is the background color Purple?"
+            android:title="Purple Background">
+
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

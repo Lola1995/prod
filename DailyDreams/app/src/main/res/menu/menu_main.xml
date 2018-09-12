@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.crycetruly.dailydreams.MainActivity">
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="100"
+        android:title="Create"
+        android:icon="@drawable/ic_action_add"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/starred"
+        android:orderInCategory="100"
+        android:title="Starred"
+        android:icon="@drawable/ic_action_star"
+        app:showAsAction="always" />
+    <item android:title="@string/action_settings"
+        android:id="@+id/settings"
+        app:showAsAction="never"
+        
+
+        />
+</menu>

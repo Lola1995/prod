@@ -1,0 +1,249 @@
+{
+  "project_info": {
+    "project_number": "35343881382",
+    "firebase_url": "https://getaplottestapp.firebaseio.com",
+    "project_id": "getaplottestapp",
+    "storage_bucket": "getaplottestapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35343881382:android:de8ea481e023f9e3",
+        "android_client_info": {
+          "package_name": "com.asgetaplot.asgetaplot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35343881382-uphpjpj8jrrates0tqbp8407bvdc7s8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asgetaplot.asgetaplot",
+            "certificate_hash": "d9c51eee46fee3090e504202875c92aeea528eb4"
+          }
+        },
+        {
+          "client_id": "35343881382-eak8fs6hfnkole2trh61rf2koevcuuu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoTYpoolwBz3u0rPg3XkT4XcrlhDi6Z0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35343881382-eak8fs6hfnkole2trh61rf2koevcuuu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35343881382:android:2ef05e4140b76aa3",
+        "android_client_info": {
+          "package_name": "com.asgetaplotadmin.asgetaplotadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35343881382-7ucef55a9hi3e2g81ilfbe3jn3q0dn4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asgetaplotadmin.asgetaplotadmin",
+            "certificate_hash": "a638a5b8f6c32ac03fa69c8425e6941da64d3b16"
+          }
+        },
+        {
+          "client_id": "35343881382-eak8fs6hfnkole2trh61rf2koevcuuu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoTYpoolwBz3u0rPg3XkT4XcrlhDi6Z0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35343881382-eak8fs6hfnkole2trh61rf2koevcuuu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35343881382:android:678809fa1e6c6df2",
+        "android_client_info": {
+          "package_name": "com.crycetruly.r2d2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35343881382-u0b43h613n7hsdsivid5tflgvmoijrkm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crycetruly.r2d2",
+            "certificate_hash": "a638a5b8f6c32ac03fa69c8425e6941da64d3b16"
+          }
+        },
+        {
+          "client_id": "35343881382-eak8fs6hfnkole2trh61rf2koevcuuu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoTYpoolwBz3u0rPg3XkT4XcrlhDi6Z0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35343881382-eak8fs6hfnkole2trh61rf2koevcuuu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35343881382:android:e4af446cb5d80a89",
+        "android_client_info": {
+          "package_name": "com.getaplot.asgetaplot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35343881382-eak8fs6hfnkole2trh61rf2koevcuuu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoTYpoolwBz3u0rPg3XkT4XcrlhDi6Z0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35343881382:android:7ef085cd34e6944b",
+        "android_client_info": {
+          "package_name": "com.getaplot.asgetaplotadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35343881382-eak8fs6hfnkole2trh61rf2koevcuuu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoTYpoolwBz3u0rPg3XkT4XcrlhDi6Z0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35343881382:android:24379d123362b4e4",
+        "android_client_info": {
+          "package_name": "com.getaplot.getaplot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35343881382-9jh216du19k31fnape52rrh93oah4f9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.getaplot.getaplot",
+            "certificate_hash": "a638a5b8f6c32ac03fa69c8425e6941da64d3b16"
+          }
+        },
+        {
+          "client_id": "35343881382-eak8fs6hfnkole2trh61rf2koevcuuu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoTYpoolwBz3u0rPg3XkT4XcrlhDi6Z0Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35343881382-eak8fs6hfnkole2trh61rf2koevcuuu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
